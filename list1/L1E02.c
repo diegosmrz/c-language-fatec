@@ -1,3 +1,10 @@
+/* 2) Receba tres numeros onde o primeiro deve ser maior do que zero e menor que 20. 
+O segundo deve ser negativo e o terceiro representa um numero qualquer. 
+Calcule a soma de cada numero elevado ao quadrado. 
+Se a soma resultar um valor inferior a 1000 solicite novos dados.
+
+C CODE */
+
 #include <stdlib.h>
 int a,b,c,s = 0;
 
