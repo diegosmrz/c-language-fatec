@@ -14,25 +14,19 @@ int num[ktam];
 int plus[pl];
 
 	for(i = 0; i < ktam ; i++){
-
 		printf("Digite o numero da vez");
 		scanf("%d", &num[i]);
 		if((num[i] >= -23) && (num[i] < -16) ){
-            pl++;
-			plus[pl] = num[i];
-
+            	pl++;
+		plus[pl] = num[i];
 		}
 	}
-
 	printf("--------------------------------------- \n");
 	printf("Foram digitados %d numeros com valores \n entre -23 e -16: \n", pl);
-
-	printf("\nOs números digitados foram: \n");
-
+	printf("\n Os números digitados foram: \n");
         for (i = 1 ; i <= pl; i++ ){
             printf("%do %d \n", i, plus[i]);
         }
-
 	printf("--------------------------------------- \n");
 }
 
