@@ -3,7 +3,6 @@
  10) Receba a quantidade K de numeros quaisquer. K representa essa quantidade e deve ser digitada pelo usuario. 
 A variavel Num armazena cada uma dos K numeros digitados e devera ser alimentada pelo usuario. 
 Verifique e exiba a quantidade de numeros negativos superiores ou igual a -23 e inferiores a -16.
-
 C CODE*/
 
 #include <stdio.h>
@@ -23,7 +22,6 @@ int plus[pl];
 			plus[pl] = num[i];
 
 		}
-
 	}
 
 	printf("--------------------------------------- \n");
@@ -46,3 +44,5 @@ int ktam = 0;
 
 	calcula(ktam);
 }
+
+//waiting a new code with new logic
