@@ -1,0 +1,54 @@
+/*1 - Escreva um programa e inicialize as variaveis do tipo char, int, short,
+    long, unsigned(char, int, short, long), float e double com seus valores
+    limites e imprima-os no video. Utilize variaveis globais para os valores
+    positivos e locais para os negativos.*/
+
+#ifdef ex1
+//positivos
+char charmax = 127;
+int intmax = 32767;
+short shortmax = 32767;
+long longmax = 2147483647;
+unsigned char ncharmax = 127;
+unsigned int uintmax = 65535;
+unsigned short ushortmax = 65535;
+unsigned long ulongmax = 4294967295;
+float floatmax = 3.4E+38;
+double doublemax = 1.7E+308;
+
+main() {
+//negativos
+char ncharmax = -128;
+int nintmax = -32768;
+short nshortmax = -32768;
+long nlongmax = -2147483648;
+unsigned char nncharmax = -128;
+unsigned int nuintmax = -65536;
+unsigned short nushortmax = -65536;
+unsigned long nulongmax = -4294967296;
+float nfloatmax = -3.4E-38;
+double ndoublemax = -1.7E-307;
+
+printf("char %c \n", charmax);
+printf("int %i \n", intmax);
+printf("short %hi \n", shortmax);
+printf("long %li \n", longmax);
+printf("unsigned char %c \n", ncharmax);
+printf("unsigned int %u \n", uintmax);
+printf("unsigned short %hu \n", ushortmax);
+printf("unsigned long %lu \n", ulongmax);
+printf("float %f \n", floatmax);
+printf("double %d \n", doublemax);
+
+printf("char %c \n", ncharmax);
+printf("int %i \n", nintmax);
+printf("short %hi \n", nshortmax);
+printf("long %li \n", nlongmax);
+printf("unsigned char %c \n", nncharmax);
+printf("unsigned int %u \n", nuintmax);
+printf("unsigned short %hu \n", nushortmax);
+printf("unsigned long %lu \n", nulongmax);
+printf("float %f \n", nfloatmax);
+printf("double %d \n", ndoublemax);
+}
+#endif
