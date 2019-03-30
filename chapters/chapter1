@@ -157,3 +157,18 @@ int main(int *argc, char *argv[]){
 	return 0;
 }
 #endif
+
+/*4 - Escreva um programa que permute o conteúdo de duas variáveis sem utilizar uma
+    variável auxiliar.*/
+
+#ifdef exerc1
+main()
+{
+int a = 30;
+int b = 50;
+a = a + b; //X+Y para ter o número total. 
+b = a - b; //Y recebe a subtração de X - Y
+a = a - b; //X recebe a subetração de X - o que soubrou de Y após a conta anterior
+}
+#endif
+
