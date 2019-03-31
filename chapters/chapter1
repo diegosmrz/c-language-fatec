@@ -172,3 +172,35 @@ a = a - b; //X recebe a subetração de X - o que soubrou de Y após a conta ant
 }
 #endif
 
+/*5 - Escreva um programa que determine o menor multiplo de um nuo intemeriro. Este
+    multiplo deve ser maior que o limite minimo recebido. Recebe os 2 numeros via
+    teclado.
+    Ex: menor multiplo de 13 maior que 100. Resultado: 104.*/
+
+#ifdef exerc1
+main()
+{
+    int A,B,x,MENOR=0;
+
+    printf("LIMITE: ");
+    scanf("%d",&A);
+    printf("MULTIPLO: ");
+    scanf("%d",&B);
+
+    for(x=A+B+1;x>A;x--)
+    {
+        if(x%B==0)
+        {
+            if(x<MENOR)
+            {
+                MENOR = x;
+            }
+                else if(MENOR==0)
+                {
+                    MENOR = x;
+                }
+        }
+    }
+    printf("MENOR MULTIPLO DE %d MAIOR QUE %d = %d",B,A,MENOR);
+}
+#endif
