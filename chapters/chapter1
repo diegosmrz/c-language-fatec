@@ -204,3 +204,35 @@ main()
     printf("MENOR MULTIPLO DE %d MAIOR QUE %d = %d",B,A,MENOR);
 }
 #endif
+
+/*6 - Escreva um programa que receba via teclado um tempo em segundos e converta um
+    para horas, minutos e segundos.
+    Ex.: recebe 3850 segundos que converte para 1h 4min 10s.*/
+
+#ifdef exerc1
+main()
+{
+    int H,M,S,s;
+
+    printf("DIGITE OS SEGUNDOS: ");
+    scanf("%d",&s);
+
+    H = s/3600;
+    S = s%3600;
+    M = S/60;
+    S = S-(M*60);
+
+    if(H==0)
+    {
+        printf("%d SEGUNDOS SAO = %dmin %dseg",s,M,S);
+    }
+        else if(H==1)
+        {
+            printf("%d SEGUNDOS SAO = %dh %dmin %dseg",s,H,M,S);
+        }
+            else
+            {
+                printf("%d SEGUNDOS SAO = %dhrs %dmin %dseg",s,H,M,S);
+            }
+}
+#endif
