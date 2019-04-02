@@ -236,3 +236,34 @@ main()
             }
 }
 #endif
+
+
+/*7 - Faça um programa para ler um numero inteiro, positivo de tres digitos, e gerar
+    outro número formado pelos dígitos invertidos do número lido.
+    Ex:   NúmeroLido = 123
+        NúmeroGerado = 321*/
+
+#ifdef exerc1
+main()
+{
+    int a, b, c, d=0;
+
+    do{
+        printf("Digite um número positivo de 3 digitos: ");
+        scanf("%d",&a);
+        if(a<99 || a>999){
+            printf("O número deve ser positivo de 3 digitos\n");
+        }
+    }while( a<99 || a>999);
+
+    d = a;
+
+    for(;A>0;){
+        b = a%10;
+        c = c*10 + b;
+        a = a/10;
+    }
+    printf("Numero informado  = %d\n",d);
+    printf("Invertido = %d\n",c);
+}
+#endif
