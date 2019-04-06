@@ -267,3 +267,43 @@ main()
     printf("Invertido = %d\n",c);
 }
 #endif
+
+/*8 - Escreva um program que lê um valor em reais e calcula qual o menor número
+    possível de notas de $100, $50, $10 e $1 em que o valor lido pode ser
+    decomposto. Imprimir o valor lido e a relação de notas necessárias.
+*/
+#ifdef ex8
+main()
+{
+    int valor, n100, n50, n10, n1 = 0;
+
+    printf("Digite o valor: \n");
+    scanf("%d \n",&valor);
+
+    while(valor > 100){
+      n100++;
+      valor=valor-100;
+      printf("desc: %d \n", valor);
+    }
+    while(valor > 50){
+      n50++;
+      valor=valor-50;
+      printf("desc: %d \n", valor);
+    }
+    while(valor > 10){
+      n10++;
+      valor=valor-10;
+      printf("desc: %d \n", valor);
+    }
+    while(valor > 1){
+      n1++;
+      valor=valor-1;
+      printf("desc: %d \n", valor);
+    }
+
+    printf("Notas de 100 %d \n", n100);
+    printf("Notas de 50 %d \n", n50);
+    printf("Notas de 10 %d \n", n10);
+    printf("Notas de 1 %d \n", n1);
+}
+#endif
