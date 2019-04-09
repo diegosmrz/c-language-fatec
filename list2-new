@@ -1,0 +1,26 @@
+Lista 2 - Algoritmos
+Faça o fluxograma: 
+1)	Gere e exiba cada uma das seqüências abaixo com uma quantidade k de termos determinados pelo usuário.
+a)	3, 6, 9, 12, 15,...
+b)	1/4, 1/8, 1/12, 1/16, 1/20,...
+
+2)	Gere e exiba cada uma das seqüências abaixo com uma quantidade k de termos determinados pelo usuário.
+a)	2/5, 4/10, 6/15, 8/20, 10/25, 12/30,...
+b)	4/8, 1, 36/24, 2, 100/40, 144/48,...
+
+3)	Receba a quantidade de idades de K indivíduos. K representa essa quantidade e deve ser digitada pelo usuário. A variável Idade armazena cada uma das K idades digitadas. Calcule e mostre a somatória dessas idades. 
+
+4)	Calcule e mostre a média dos K primeiros pares e múltiplos de cinco.
+OBS: K representa a quantidade de números pares solicitados via teclado pelo   usuário. Os números pares deverão ser gerados pelo programador.
+		2, 4, 6, 8, 10,...
+
+5)	Receba K números. Exiba a quantidade de números pares negativos e quantas vezes o número zero foi digitado. 
+Obs1: K representa a quantidade de números digitados pelo usuário.
+      Obs2: A variável Num representa cada número digitado pelo usuário.
+
+6)	Receba K números positivos. Cada número recebido deverá ser armazenado na variável Num e a variável K representa a quantidade de números solicitada pelo usuário. Exiba a quantidade de múltiplos 7.
+
+7)	Receba via teclado um número X, onde este número representa a quantidade de termos que o usuário deseja. H representa cada um desses números, calcule o produto dos X números.
+	    OBS: H deve ser maior ou igual a 15.
+
+8)	Receba a quantidade de pesos de N pessoas. N representa essa quantidade e deve ser digitada pelo usuário. A variável Peso armazena cada um do N pesos digitados. Calcule e mostre a média dos pesos digitados.
