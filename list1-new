@@ -1,0 +1,29 @@
+1.	Ler um número inteiro e imprimir seu sucessor e seu antecessor. 
+
+2.	Receber um valor qualquer do teclado e imprimir esse valor com reajuste de 10%.
+
+
+3.	Informar um preço de um produto e calcular novo preço com desconto de 9%.
+
+
+4.	 Cálculo de um salário líquido de um professor. Serão fornecidos valor da hora aula, número de aulas dadas e o % de desconto do INSS.
+
+
+5.	 Ler uma temperatura em graus Celsius e transformá-la em graus Fahrenheit.
+
+
+6.	Faça um programa que receba o ano do nascimento de uma pessoa e o ano atual, calcule e mostre:
+a.	A idade dessa pessoa
+b.	Quantos anos essa pessoa terá em 2020.
+
+
+7.	O custo ao consumidor de um carro novo é a soma do preço da fábrica com o percentual de lucro do distribuidor e dos impostos aplicados ao preço de fábrica. Faça um programa que receba o preço de fábrica de um veículo, o percentual de lucro do distribuidor e o percentual de impostos. Calcule e mostre:
+a.	O valor correspondente ao lucro do distribuidor
+b.	O valor correspondente aos impostos
+c.	O preço final do veículo
+
+8.	Elabore um programa que efetue o cálculo do reajuste de salário de um funcionário. Considere que o funcionário deve receber um reajuste de 15% caso seu salário seja menor que 800 reais. Se o salário for maior ou igual a 800 e menor ou igual a 1000, seu reajuste será de 10 %; caso seja maior que 1000, o reajuste deve ser de 5%. Ao final do programa deve apresentar o valor antigo e o novo salário.
+
+9.	Leia quatro valores referentes às notas escolares de um aluno e exiba uma mensagem dizendo que ele foi aprovado se a média for maior ou igual a 5. Caso contrário informe que ele está reprovado. Apresente junto à mensagem o valor da média obtida pelo aluno independente de ter sido aprovado ou não. As notas deverão ser maiores ou iguais a zero e menores ou iguais a dez.
+
+10.	Receba dois números, o primeiro deve ser maior que 10 e menor que 25, o segundo deve ser maior ou igual a zero, o terceiro deve ser a soma dos dois primeiros e o quarto é o produto dos três números anteriores. Calcule e exiba a soma dos quadrados de cada um dos quatro números. Caso o resultado seja menor que 50000, solicite novos dados.
