@@ -1,5 +1,15 @@
 1.	Ler um número inteiro e imprimir seu sucessor e seu antecessor. 
 
+#include <stdio.h>
+int main()
+{
+	int num = 0;
+	print("/n Digite um número: ");
+	scanf("%d", &num);
+	print("Antecessor de %d: %d", num, num-1);
+	print("Sucessor de %d: %d", num, num+1);
+}
+
 2.	Receber um valor qualquer do teclado e imprimir esse valor com reajuste de 10%.
 
 
