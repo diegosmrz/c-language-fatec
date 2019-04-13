@@ -12,9 +12,25 @@ int main()
 
 2.	Receber um valor qualquer do teclado e imprimir esse valor com reajuste de 10%.
 
+#include <stdio.h>
+int main()
+{
+	float num = 0;
+	print("/n Digite um número: ");
+	scanf("%f", &num);
+	print("\n %d mais reajuste (10%%) = %d ", num, num*1.1);
+}
 
 3.	Informar um preço de um produto e calcular novo preço com desconto de 9%.
 
+#include <stdio.h>
+int main()
+{
+	float num = 0;
+	print("/n Informe o preço do produto: ");
+	scanf("%f", &num);
+	print("\n O valor do produto com desconto de 9%% é: ", num*0.91);
+}
 
 4.	 Cálculo de um salário líquido de um professor. Serão fornecidos valor da hora aula, número de aulas dadas e o % de desconto do INSS.
 
