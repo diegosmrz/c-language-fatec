@@ -37,6 +37,16 @@ int main()
 
 5.	 Ler uma temperatura em graus Celsius e transformá-la em graus Fahrenheit.
 
+#include <stdio.h>
+int main()
+{
+	float num = 0;
+	print("/n Informe a temperatura em Celsius: ");
+	scanf("%f", &num);
+	num = (num*1.8)+32;	
+	print("\n A temperatura em Fahreinheit é %f: ", num);
+}
+
 
 6.	Faça um programa que receba o ano do nascimento de uma pessoa e o ano atual, calcule e mostre:
 a.	A idade dessa pessoa
