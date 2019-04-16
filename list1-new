@@ -52,6 +52,20 @@ int main()
 a.	A idade dessa pessoa
 b.	Quantos anos essa pessoa terá em 2020.
 
+#include <stdio.h>
+int nasc, a_atual, idade = -1;
+int main (){
+
+	printf("Digite o ano atual\n");
+	scanf("%d", &a_atual);
+
+	while (nasc <= 0){
+			printf("\nDigite seu ano de nascimento \n");
+		    scanf("%d", &nasc);		
+	}
+	idade = a_atual - nasc;
+ 	printf("Ano atual: %d\nAno nascimento: %d\nIdade: %d", a_atual, nasc, idade);
+}
 
 7.	O custo ao consumidor de um carro novo é a soma do preço da fábrica com o percentual de lucro do distribuidor e dos impostos aplicados ao preço de fábrica. Faça um programa que receba o preço de fábrica de um veículo, o percentual de lucro do distribuidor e o percentual de impostos. Calcule e mostre:
 a.	O valor correspondente ao lucro do distribuidor
