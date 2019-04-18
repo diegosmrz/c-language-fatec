@@ -76,6 +76,23 @@ c.	O preço final do veículo
 
 9.	Leia quatro valores referentes às notas escolares de um aluno e exiba uma mensagem dizendo que ele foi aprovado se a média for maior ou igual a 5. Caso contrário informe que ele está reprovado. Apresente junto à mensagem o valor da média obtida pelo aluno independente de ter sido aprovado ou não. As notas deverão ser maiores ou iguais a zero e menores ou iguais a dez.
 
+#include <stdio.h>
+float nota[4], media = 0; 
+int for_med = 0;
+int main (){
+
+	for (for_med = 1 ; for_med <= 4 ; for_med++){
+		 printf("\nDigite o valor da nota %d\n", for_med);
+		 scanf("%f", &nota[for_med]);}
+
+	media = (nota[1] + nota[2] + nota[3] + nota[4])/4;
+ 	
+ 	printf("\nO valor das notas foram: \n1: %f \n2: %f \n3: %f \n4: %f \nA media e' %f \n", nota[1], nota[2], nota[3], nota[4], media);
+
+ 	if(media >= 5){printf("Aprovado");}
+ 	else {printf("Reprovado");}
+}
+
 10.	Receba dois números, o primeiro deve ser maior que 10 e menor que 25, o segundo deve ser maior ou igual a zero, o terceiro deve ser a soma dos dois primeiros e o quarto é o produto dos três números anteriores. Calcule e exiba a soma dos quadrados de cada um dos quatro números. Caso o resultado seja menor que 50000, solicite novos dados.
 
 #include <stdio.h>
