@@ -74,6 +74,24 @@ c.	O preço final do veículo
 
 8.	Elabore um programa que efetue o cálculo do reajuste de salário de um funcionário. Considere que o funcionário deve receber um reajuste de 15% caso seu salário seja menor que 800 reais. Se o salário for maior ou igual a 800 e menor ou igual a 1000, seu reajuste será de 10 %; caso seja maior que 1000, o reajuste deve ser de 5%. Ao final do programa deve apresentar o valor antigo e o novo salário.
 
+#include <stdio.h>
+float sal_base, sal_ajust = 0;
+int main (){
+
+	while(sal_base < 100){
+		printf("\n Informe o salario \n(obs: valor minimo: 100)\n");
+		scanf("%f", &sal_base);
+		if(sal_base < 100){printf("\nInforme um numero maior que 100\n");}}
+
+	if (sal_base < 800){ sal_ajust = sal_base * 1.15;}
+	else if (sal_base <= 1000){ sal_ajust = sal_base * 1.10;}
+	else { sal_ajust = sal_base * 1.05;}
+
+	printf("Salario anterior: %f\n", sal_base);
+	sal_base = sal_ajust - sal_base;
+	printf("Valor do ajuste: %f\n Valor salario ajustado: %f", sal_base, sal_ajust);
+}
+
 9.	Leia quatro valores referentes às notas escolares de um aluno e exiba uma mensagem dizendo que ele foi aprovado se a média for maior ou igual a 5. Caso contrário informe que ele está reprovado. Apresente junto à mensagem o valor da média obtida pelo aluno independente de ter sido aprovado ou não. As notas deverão ser maiores ou iguais a zero e menores ou iguais a dez.
 
 #include <stdio.h>
