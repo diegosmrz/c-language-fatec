@@ -72,6 +72,28 @@ a.	O valor correspondente ao lucro do distribuidor
 b.	O valor correspondente aos impostos
 c.	O preço final do veículo
 
+#include <stdio.h>
+float vlr_fab, lcr_d, imp_g, vlr_fnl = 0; 
+int main (){
+
+	while(vlr_fab <= 10){
+		printf("Informe o valor do veiculo\n");
+		scanf("%f", &vlr_fab);}
+
+	while(lcr_d <= 0){
+		printf("Informe a porcentagem de lucro.\n");
+		scanf("%f", &lcr_d);}
+
+	while(imp_g <= 0){
+		printf("Informe a porcentagem de impostos.\n");
+		scanf("%f", &imp_g);}
+
+	vlr_fnl = vlr_fab + (vlr_fab * lcr_d / 100) + (vlr_fab * imp_g / 100);
+
+	printf("\nValor de Fabrica: %f\nPorcentagem Lucro Distribuidor: %f%%\nPorcentagem dos Impostos: %f%%\nValor final : %f\n", vlr_fab, lcr_d, imp_g, vlr_fnl );
+}
+
+
 8.	Elabore um programa que efetue o cálculo do reajuste de salário de um funcionário. Considere que o funcionário deve receber um reajuste de 15% caso seu salário seja menor que 800 reais. Se o salário for maior ou igual a 800 e menor ou igual a 1000, seu reajuste será de 10 %; caso seja maior que 1000, o reajuste deve ser de 5%. Ao final do programa deve apresentar o valor antigo e o novo salário.
 
 #include <stdio.h>
