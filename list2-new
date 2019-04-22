@@ -4,6 +4,27 @@ Faça o fluxograma:
 a)	3, 6, 9, 12, 15,...
 b)	1/4, 1/8, 1/12, 1/16, 1/20,...
 
+#include <stdio.h>
+int i, k = 0;
+int i1=0, i2=1, ii1=1, ii2=0;
+int main (){
+	while (k <= 0){
+		printf("Digite quantas vezes voc^e quer contar.\n");
+		scanf("%d", &k);	}
+
+	printf("\nValores de i: \n i.: ");
+	for (i = 0 ; i < k ; i++){
+		i1 =  i1 + 3;
+		printf(", %d",i1);
+	}
+
+	printf("\nValores de ii: \n ii.: ");
+	for (i = 0;i < k; i++){
+		ii2 =  ii2 + 4;
+		printf(", %d/%d",ii1, ii2);
+	}
+}
+
 2)	Gere e exiba cada uma das seqüências abaixo com uma quantidade k de termos determinados pelo usuário.
 a)	2/5, 4/10, 6/15, 8/20, 10/25, 12/30,...
 b)	4/8, 1, 36/24, 2, 100/40, 144/48,...
