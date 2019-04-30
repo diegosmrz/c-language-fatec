@@ -19,7 +19,7 @@ int main (){
   do(){
     printf("Digite o valor de A\n");
     scanf("%f\n", &a);
-    if(a==0){ printf("\O valor de A não pode ser igual a zero."); }
+    if(a==0){ printf("O valor de A não pode ser igual a zero."); }
   }while(a==0);
   
     printf("Digite o valor de B\n");
