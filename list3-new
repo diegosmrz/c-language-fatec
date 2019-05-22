@@ -1,4 +1,16 @@
 1)	Mostre todos os números ímpares de 1 até 100.Utilize o laço while.
+#include <stdio.h>
+int main()
+{
+	int num, mod = 0;
+	while(num <= 100){
+		num++;
+		mod = num%2;
+		if(mod==0){
+			printf("Num: %d");
+		}
+	}
+}
 
 2)	Mostre todos os números ímpares de 50 até 300.Utilize o laço do while.
 
