@@ -14,6 +14,22 @@ int main()
 
 2)	Mostre todos os números ímpares de 50 até 300.Utilize o laço do while.
 
+#include <stdio.h>
+int main()
+{
+	int num =50;
+	int mod = 0;
+	
+	while(num <= 300){
+		num++;
+		mod = num%2;
+		if(mod==0){
+			printf("Num: %d");
+		}
+	}
+}
+
+
 3)	Receba um número inteiro e mostre os números pares de 2 até esse inteiro. Utilize o laço do while.
 
 4)	Pergunte ao usuário quantos alunos tem na sala dele. Em seguida, através de um laço do while, peça ao usuário para que entre com as notas de todos os alunos da sala, um por vez. Exiba a média da turma e quantas notas foram digitadas maiores ou iguais a 6.
