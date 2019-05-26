@@ -32,6 +32,22 @@ int main()
 
 3)	Receba um número inteiro e mostre os números pares de 2 até esse inteiro. Utilize o laço do while.
 
+#include <stdio.h>
+int main()
+{
+	int limit = 0;
+	int num, mod = 0;
+	printf("Digite um número a ser ");
+
+	while(num <= limit){
+		num++;
+		mod = num%2;
+		if(mod==0){
+			printf("Num: %d");
+		}
+	}
+}
+
 4)	Pergunte ao usuário quantos alunos tem na sala dele. Em seguida, através de um laço do while, peça ao usuário para que entre com as notas de todos os alunos da sala, um por vez. Exiba a média da turma e quantas notas foram digitadas maiores ou iguais a 6.
 
 5)	Solicite ao usuário números quaisquer até que a soma desses números digitados seja inferior a 20. Utilize o laço while.
