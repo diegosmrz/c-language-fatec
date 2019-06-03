@@ -47,9 +47,6 @@ void main(){
 #endif
 
 #ifdef ex2
-#include <stdio.h>
-#include <stdlib.h>
-
 int A[10];
 int tVetor=0;
 int i, j = 0;
