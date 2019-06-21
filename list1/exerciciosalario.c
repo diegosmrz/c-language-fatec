@@ -1,47 +1,36 @@
 #include <stdio.h>
 
 //Contantes
-float i7 = 7.5;
-float i15 = 15.0;
-float i22 = 22.5;
-float i27 = 27.5;
-float v7 = 1999.00;
-float v15 = 2968.0;
-float v22 = 3938.0;
-float v27 = 4897.0;
-int o = 0;
+float taxa7 = 7.5;
+float taxa15 = 15.0;
+float taxa22 = 22.5;
+float taxa27 = 27.5;
+float valor7 = 1999.00;
+float valor15 = 2968.0;
+float valor22 = 3938.0;
+float valor27 = 4897.0;
 float taxaAnterior = 0;
 float salarioTetoAnterior = 0;
 
 
 float retornaTaxa(float salario){
 	float taxa = 0;
-
-	if(salario > v7 && salario <= v15){
-		o = 1;
-		taxa = i7;
-
+	if(salario > valor7 && salario <= valor15){
+		taxa = taxa7;
 		taxaAnterior = 0;
-		salarioTetoAnterior = v7;
-
-	}else if(salario > v15 && salario <= v22){
-		o = 2;
-		taxa = i15;
-
-		taxaAnterior = i7;
-		salarioTetoAnterior = v15;
-	}else if(salario > v22 && salario <= v27){
-		o = 3;
-		taxa = i22;
-
-		taxaAnterior = i15;
-		salarioTetoAnterior = v22;
-	}else if(salario > v27){
-		o = 4;
-		taxa = i27;
-
-		taxaAnterior = i22;
-		salarioTetoAnterior = v27;
+		salarioTetoAnterior = valor7;
+	}else if(salario > valor15 && salario <= valor22){
+		taxa = taxa15;
+		taxaAnterior = taxa7;
+		salarioTetoAnterior = valor15;
+	}else if(salario > valor22 && salario <= valor27){
+		taxa = taxa22;
+		taxaAnterior = taxa15;
+		salarioTetoAnterior = valor22;
+	}else if(salario > valor27){
+		taxa = taxa27;
+		taxaAnterior = taxa22;
+		salarioTetoAnterior = valor27;
 	}
 	return taxa;
 }
@@ -80,10 +69,7 @@ void exibe(float salario, float desconto, float taxa, float salarioFinal){
 
 main (void){
 	float salario;
-
 	printf("Informe o seu salário");
 	scanf("%f", &salario);
-
 	calcReturn(salario);
-
 }
