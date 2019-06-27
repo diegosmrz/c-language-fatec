@@ -5,23 +5,22 @@ Se os numeros forem iguais informe ao usuario.
 C CODE */
 
 #include <stdlib.h>
-int a,b,s;
+int num1,num2,result=0;
 
 int main()
 	{
-		printf("Digite o primeiro numero para soma: \n");
-			scanf("%d", &a);
+	printf("Digite o primeiro numero para soma: \n");
+		scanf("%d", &num1);
+	printf("Digite o segundo numero para soma: \n");
+		scanf("%d", &num2);
 
-		printf("Digite o segundo numero para soma: \n");
-			scanf("%d", &b);
-
-	if (a == b)
-		{printf("Numeros iguais, nao ha diferenca entre eles. \n");}
-	else
-    if (a > b)
-	{	s = a-b;
-		printf("A diferenca entre %d e %d e'; %d \n", a, b, s);} 
-	else
-			{	s = b-a;
-		printf("A diferenca entre %d e %d e'; %d \n", b, a, s);}
+	if (num1 == num2){
+		printf("Numeros iguais, nao ha diferenca entre eles. \n");}
+	else if (num1 > num2)
+	{	
+		result = num1-num2;
+		printf("A diferenca entre %d e %d e'; %d \n", num1, num2, result);} 
+	else{	
+		result = num2-num1;
+		printf("A diferenca entre %d e %d e'; %d \n", num2, num1, result);}
 	}
