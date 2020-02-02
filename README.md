@@ -29,7 +29,7 @@
   
 
 ## IAL-002 - Algoritmos e Lógica de programação (Linguagem C)
--Objetivo:
+- Objetivo:
 <p>Iniciar a formação em programação de computadores por meio de uma linguagem facilitadora do aprendizado de algoritmos, preferencialmente alguma uma linguagem de amplo emprego no mercado. </p>
 
 - Ementa:
@@ -47,7 +47,7 @@
 
 
 ## ILP-010 - Linguagem de Programação C
--Objetivo:
+- Objetivo:
 <p>Solucionar problemas utilizando a lógica de programação e a implementação de programas por meio de uma linguagem de programação.  </p>
 
 - Ementa:
