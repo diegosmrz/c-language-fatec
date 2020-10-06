@@ -1,4 +1,4 @@
-2)	Mostre todos os números ímpares de 50 até 300.Utilize o laço do while.
+/*  2)	Mostre todos os números ímpares de 50 até 300.Utilize o laço do while. */
 
 #include <stdio.h>
 int main()

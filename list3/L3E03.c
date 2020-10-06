@@ -1,4 +1,4 @@
-// 3)	Receba um número inteiro e mostre os números pares de 2 até esse inteiro. Utilize o laço do while.
+/* 3)	Receba um número inteiro e mostre os números pares de 2 até esse inteiro. Utilize o laço do while. */
 
 #include <stdio.h>
 int main()
