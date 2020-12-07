@@ -1,0 +1,1 @@
+/* 8)	Receba K números inteiros quaisquer, K representa a quantidade de termos solicitada pelo usuário e cada termo pode ser representado pela variável N. Exiba a quantidade de números positivos recebidos e a média dos números ímpares. . Utilize o laço do while para a entrada da quantidade K e um laço while para efetuar os cálculos solicitados.
